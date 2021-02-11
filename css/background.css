@@ -1,0 +1,37 @@
+.hero{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+&::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-image: url('assets/img/photo3.jfif')
+    background-size: cover;
+    -webkit- background-size: cover;
+    -moz- background-size: cover;
+    -o- background-size: cover;
+    background-position: top center;
+    opacity: 0.25;
+     
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #171717;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1{
+    font-size: 8rem;
+    text-align: center;
+
+}
